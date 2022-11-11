@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "centralized-popup",
+    "libraryId": "4091e711-5445-4bfa-b24c-15555c33260b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "centralized-popup",
+    "solutionShortDescription": "centralized-popup description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

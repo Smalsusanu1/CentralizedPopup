@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "centralizedp-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/centralizedp1/Centralizedp1WebPart.js",
+          "manifest": "./src/webparts/centralizedp1/Centralizedp1WebPart.manifest.json"
+        }
+      ]
+    },
+    "centralizedp-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/centralizedp2/Centralizedp2WebPart.js",
+          "manifest": "./src/webparts/centralizedp2/Centralizedp2WebPart.manifest.json"
+        }
+      ]
+    },
+    "centralizedp-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/centralizedp3/Centralizedp3WebPart.js",
+          "manifest": "./src/webparts/centralizedp3/Centralizedp3WebPart.manifest.json"
+        }
+      ]
+    },
+    "centralized-4-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/centralized4/Centralized4WebPart.js",
+          "manifest": "./src/webparts/centralized4/Centralized4WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Centralizedp1WebPartStrings": "lib/webparts/centralizedp1/loc/{locale}.js",
+    "Centralizedp2WebPartStrings": "lib/webparts/centralizedp2/loc/{locale}.js",
+    "Centralizedp3WebPartStrings": "lib/webparts/centralizedp3/loc/{locale}.js",
+    "Centralized4WebPartStrings": "lib/webparts/centralized4/loc/{locale}.js"
+  }
+}

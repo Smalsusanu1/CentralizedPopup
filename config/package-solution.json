@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "centralized-popup-client-side-solution",
+    "id": "4091e711-5445-4bfa-b24c-15555c33260b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "centralized-popup description"
+      },
+      "longDescription": {
+        "default": "centralized-popup description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "centralized-popup Feature",
+        "description": "The feature that activates elements of the centralized-popup solution.",
+        "id": "544d6ef8-0f54-4265-8c1f-d3236b82f657",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/centralized-popup.sppkg"
+  }
+}
